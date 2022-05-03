@@ -26,8 +26,6 @@ ___
 ![PassScreen](Documentation/PassScreen.gif)
 ### Экран выбора изображения
 ![ChooseImageScreen](Documentation/ChooseImageScreen.png)
-### Экран результатов
-![HighScoreScreen.png](Documentation/HighScoreScreen.png)
 ### Основной экран
 ![MainScreen](Documentation/MainScreen.png)
 ___
