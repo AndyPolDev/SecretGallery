@@ -1,7 +1,7 @@
 import UIKit
 
 class EnterViewController: UIViewController {
-  
+    
     //MARK: - outlets
     
     @IBOutlet weak var label: UILabel!
@@ -57,7 +57,7 @@ class EnterViewController: UIViewController {
             print("There is no data with the current key")
         }
     }
-     
+    
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
@@ -69,9 +69,9 @@ class EnterViewController: UIViewController {
         
         if !secondPointsLine.isHidden {
             
-        secondLinePointsArray.forEach({$0.cornerRadius(radius)})
-        secondLinePointsArray.forEach({$0.dropShadow(radius)})
-        secondLinePointsArray.forEach({$0.backgroundColor = .white})
+            secondLinePointsArray.forEach({$0.cornerRadius(radius)})
+            secondLinePointsArray.forEach({$0.dropShadow(radius)})
+            secondLinePointsArray.forEach({$0.backgroundColor = .white})
             
         }
     }
@@ -152,7 +152,7 @@ class EnterViewController: UIViewController {
             }
         }
     }
-   
+    
     //MARK: - flow funcs
     
     func moveToNextController() {

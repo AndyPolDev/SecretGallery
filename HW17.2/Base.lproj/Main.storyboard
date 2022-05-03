@@ -597,9 +597,11 @@
                                                                 </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u70-z7-gzb">
-                                                                <rect key="frame" x="154" y="2" width="46" height="30"/>
+                                                                <rect key="frame" x="140" y="2" width="75" height="30"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                <state key="normal" title="Button"/>
+                                                                <state key="normal" title="Full screen">
+                                                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
                                                                 <connections>
                                                                     <action selector="centralButtonPressed:" destination="vlq-Rn-hwA" eventType="touchUpInside" id="7K1-f1-eLt"/>
                                                                 </connections>
